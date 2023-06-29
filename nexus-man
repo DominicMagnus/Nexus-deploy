@@ -3,7 +3,6 @@ sudo apt install openjdk-8-jdk
 java –version
 wget https://download.sonatype.com/nexus/3/latest-unix.tar.gz
 tar -xf latest-unix.tar.gz
-sudo mv nexus-3.x.x /opt/nexus
 sudo chown -R <your_username>:<your_username> /opt/nexus
 sudo mv sonatype-work /opt/sonatype-work
 sudo chown -R <your_username>:<your_username>  /opt/sonatype-work
